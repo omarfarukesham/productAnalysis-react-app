@@ -1,0 +1,13 @@
+
+.banner--design img{
+    width: 600px;
+    height: 350px;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text--design{
+    border: 1px solid red;
+    padding: 6%;
+    margin: 5%;
+}
