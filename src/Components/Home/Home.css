@@ -4,10 +4,8 @@
     height: 350px;
     margin-left: 10%;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
-.text--design{
-    border: 1px solid red;
-    padding: 6%;
-    margin: 5%;
+.card--design{
+    
 }
