@@ -1,15 +1,15 @@
 # Welcome to Books review  shops
     
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was available with netlify [react-review-app](https://github.com/facebook/create-react-app).
 
 
 ## Available Scripts
 
-*This app basically made by react with private api.
-*Dynamic routes and customLink path.
-*Each reviewer has some rating which is dynamically updated.
-*In the dashboard, you will see some graphical chart that is business summary.
-*Blogs section also help you to understand about common frequently asking question.
+*This app basically made by react with private api.\
+*Dynamic routes and customLink path.\
+*Each reviewer has some rating which is dynamically updated.\
+*In the dashboard, you will see some graphical chart that is business summary.\
+*Blogs section also help you to understand about common frequently asking question.\
 
 ### `npm start`
 
