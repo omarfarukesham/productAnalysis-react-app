@@ -1,14 +1,19 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import image from "../1.jpeg";
 import useReview from "../Hooks/useReview";
 import Review from "../Review/Review";
 import "./Home.css";
+
+
 const Home = () => {
+
   const [reviews, setReviews] =  useReview()
 
-  const detailHandler = (id) =>{
-      console.log('detail-review', id);
-  }
+  let navigate = useNavigate();
+ const reviewDetails =() => {
+        navigate('/details')
+}
 
   return (
     <div className="justify-content-center align-items-center">
@@ -47,14 +52,14 @@ const Home = () => {
               reviews.slice(0,3).map(review => <Review 
                 key={review.id} 
                 review={review}
-                detailHandler={detailHandler}
-                
+               
                 ></Review>)
             }
-      
+       
           </div>
+          
         </div>
-
+        <button onClick={reviewDetails} className='btn btn-primary'>Explore More..</button>   
       </div>
     </div>
   );

@@ -1,19 +1,15 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import useReview from '../Hooks/useReview';
+import useReview from "../Hooks/useReview";
+import Review from '../Review/Review';
 
 const Details = () => {
+    const[reviews, setReviews] = useReview()
 
-    const [reviews, setReviews] = useReview()
-
-     const{reviewId} = useParams()
-
-    
     return (
-        <div>
-            <h1>Details Review</h1>
+        <div className='m-3 p-3'>
+
             {
-              reviews.find(book => book.id === reviewId)
+                reviews.map(review => <Review key={review.id} review={review}></Review>)
             }
         </div>
     );

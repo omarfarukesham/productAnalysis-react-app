@@ -1,26 +1,21 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import './Review.css'
 const Review = (props) => {
-    const{book_name, book_review,image,id} = props.review
+    const{book_name, book_review,image,Rating} = props.review
 
-let navigate = useNavigate();
- const reviewDetails =() => {
-        console.log('Food Details')
-        let path = `/details/${id}`
-        navigate(path)
-        //console.log(path);
- }
+
     return (
         <div className='card--design1'>
             <div>
               <img  src={image} className="w-100" alt="..." />
             </div>
-            <div>
-             <h5 class="card-title">{book_name}</h5>
-             <p class="card-text">{book_review}</p>
-                 <button onClick={reviewDetails} className='btn btn-primary'>Details</button>
-            </div>         
+            <div className='p-3'>
+             <h5 className="card-title">{book_name}</h5>
+             <p className="card-text">{book_review}</p> 
+             <h5 className='text-primary'><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i></h5>
+             <p>Rating:{Rating}</p>
+            </div>      
+           
         </div>
     );
 };
