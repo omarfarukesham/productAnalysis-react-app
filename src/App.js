@@ -7,7 +7,7 @@ import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
 import Navbar from './Components/Navbar/Navbar';
 import NotFound from './Components/NotFound/NotFound';
-import Review from './Components/Review/Review';
+
 
 function App() {
   return (

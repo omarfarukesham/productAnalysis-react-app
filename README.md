@@ -1,6 +1,6 @@
 # Welcome to Books review  shops
     
-This project was available with netlify [react-review-app](https://github.com/facebook/create-react-app).
+This project was available with netlify [react-review-app](https://omarfarukesham-assig-nine.netlify.app/).
 
 
 ## Available Scripts
