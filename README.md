@@ -1,10 +1,15 @@
-# Getting Started with Create React App
-
+# Welcome to Books review  shops
+    
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+*This app basically made by react with private api.
+*Dynamic routes and customLink path.
+*Each reviewer has some rating which is dynamically updated.
+*In the dashboard, you will see some graphical chart that is business summary.
+*Blogs section also help you to understand about common frequently asking question.
 
 ### `npm start`
 
