@@ -15,7 +15,7 @@ console.log(charts);
         <div className='d-flex justify-content-center align-items-center gap-4'>
         
          <div className='m-3'>
-             <h3 className='text-primary'>First Quarter</h3>
+             <h3 className='text-primary'>First Quarter(Sales)</h3>
             <LineChart width={400} height={400} data={charts}>
                 <Line  dataKey={"sell"} stroke="#8884d8" />
                 <XAxis dataKey="month" />
@@ -25,7 +25,7 @@ console.log(charts);
          </div>
 
          <div className='m-2'>
-            <h3 className='text-primary'>Second Quarter</h3>
+            <h3 className='text-primary'>Second Quarter(Revenue)</h3>
             <BarChart width={400} height={400} data={charts}>
                 <XAxis dataKey="month"  />
                 <YAxis />
